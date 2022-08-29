@@ -1,0 +1,85 @@
+{
+  "name": "AuditProcessor",
+  "description": "The purpose of this processor is extracting the data from multiple pdf files.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "BalaReva.CSV.Activities": "[2019.2.0]",
+    "UiPath.Excel.Activities": "[2.9.5]",
+    "UiPath.Mail.Activities": "[1.9.6]",
+    "UiPath.PDF.Activities": "[3.0.0]",
+    "UiPath.System.Activities": "[21.10.4]",
+    "UiPath.UIAutomation.Activities": "[21.10.4]",
+    "UiPath.WebAPI.Activities": "[1.11.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.12.0",
+  "projectVersion": "1.0.4",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "e95a56ad-50b7-423b-8370-59252bd5eee6",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "SourceDocument.xaml",
+      "uniqueId": "8c3acbca-6501-49c4-b463-5abcf8d96871",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "AuditPDFFileCreation.xaml",
+      "uniqueId": "183235bc-14f0-4037-ac64-3dc5413117bf",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Sequence.xaml",
+      "uniqueId": "729ba478-5406-402e-bebe-2e1f8c4763f5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "AuditBrowser.xaml",
+      "uniqueId": "86e63c38-6a3e-4a29-9d4d-1ef133e9136c",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
